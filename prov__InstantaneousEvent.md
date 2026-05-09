@@ -1,0 +1,11 @@
+---
+exo__Asset_isDefinedBy: "[[!pmbok]]"
+exo__Asset_uid: b79dd0fe-4355-4121-a200-0726860eb24c
+exo__Asset_createdAt: 2026-05-09T23:59:24+0500
+exo__Asset_updatedAt: 2026-05-09T23:59:24+0500
+exo__Asset_createdBy: "[[de20a3f1-7483-4714-ab28-b45f5cf02c76|ExoAssistant]]"
+exo__Instance_class:
+  - "[[exo__Class]]"
+exo__Asset_label: prov__InstantaneousEvent
+exo__Asset_description: W3C PROV-O InstantaneousEvent — instantaneous event with no duration. Used as superClass of pmbok__Milestone. IRI https://www.w3.org/ns/prov#InstantaneousEvent.
+---
