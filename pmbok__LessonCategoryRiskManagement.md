@@ -1,0 +1,12 @@
+---
+exo__Asset_isDefinedBy: "[[!pmbok]]"
+exo__Asset_uid: 2df87a96-5279-4d95-9e7a-d95542297dd5
+exo__Asset_createdAt: 2026-04-27T20:03:15+0500
+exo__Asset_updatedAt: 2026-04-27T20:03:15+0500
+exo__Asset_createdBy: "[[de20a3f1-7483-4714-ab28-b45f5cf02c76|ExoAssistant]]"
+exo__Instance_class:
+  - "[[pmbok__LessonCategoryScheme]]"
+  - "[[skos__Concept]]"
+exo__Asset_label: pmbok__LessonCategoryRiskManagement
+exo__Asset_description: SKOS Concept в pmbok__LessonCategoryScheme — lessons о risk identification, probability/impact assessment, mitigation strategy, escalation pattern, realized-risk post-mortem. skos:inScheme back-reference реализован через exo__Instance_class wikilink на parent scheme (mirrors pmbok__OverallStatus enum-as-class pattern). Direct IRI used by CQ6 (RFC v3 SPARQL S #e fail-closed lookup).
+---

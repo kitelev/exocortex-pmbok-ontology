@@ -1,0 +1,14 @@
+---
+exo__Asset_isDefinedBy: "[[!pmbok]]"
+exo__Asset_uid: cac51986-40a5-4aa5-ad88-e7feafb8f27d
+exo__Asset_createdAt: 2026-04-27T20:03:15+0500
+exo__Asset_updatedAt: 2026-04-27T20:03:15+0500
+exo__Asset_createdBy: "[[de20a3f1-7483-4714-ab28-b45f5cf02c76|ExoAssistant]]"
+exo__Instance_class:
+  - "[[exo__Class]]"
+  - "[[skos__ConceptScheme]]"
+exo__Asset_label: pmbok__HistoricalProjectScheme
+exo__Asset_description: SKOS ConceptScheme — controlled vocabulary для tagging legacy projects (pre-PMBOK lifecycle adoption, cancelled, archived). Initial Concept — pmbok__HistoricalPrePmbokLifecycle (excludes 160+ Done projects from CQ1 closure-gap detection). User-extensible — pmbok__HistoricalCancelled, pmbok__HistoricalArchived без RFC. Linkage via exo__Asset_relates на ems__Project (per RFC v3 Migration G8 + SPARQL P0 #2 — formal SKOS Concept, не nominal placeholder). Each member skos:Concept имеет skos:inScheme back-reference через exo__Instance_class wikilink к этой scheme.
+exo__Asset_relates:
+  - "[[4bd103cb-88ed-4a23-b51f-1d0afb166c6f|RFC pmbok-lifecycle v3]]"
+---

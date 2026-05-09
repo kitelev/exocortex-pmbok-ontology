@@ -1,0 +1,32 @@
+---
+exo__Asset_isDefinedBy: "[[!pmbok]]"
+exo__Asset_uid: 61432622-b17e-4287-80c5-18c848669dc3
+exo__Asset_createdAt: 2026-04-29T21:04:34+0500
+exo__Asset_updatedAt: 2026-04-29T21:04:34+0500
+exo__Asset_createdBy: "[[de20a3f1-7483-4714-ab28-b45f5cf02c76|ExoAssistant]]"
+exo__Instance_class:
+  - "[[exo__Class]]"
+exo__Class_superClass:
+  - "[[prov__InstantaneousEvent]]"
+exo__Asset_label: pmbok__Milestone
+exo__Asset_description: PMBOK Milestone — significant point or event in a project (charter, deliverable acceptance, phase end). Modeled as prov:InstantaneousEvent (zero-duration time point), NOT a prov:Activity (time-bounded interval). Lifecycle Forecast → AtRisk → (Met | Missed). Linked to ems__Project и optionally к deliverable artifact.
+exo__Asset_relates:
+  - "[[4bd103cb-88ed-4a23-b51f-1d0afb166c6f|RFC pmbok-lifecycle v3]]"
+---
+
+# pmbok__Milestone
+
+## Notes
+- **prov:InstantaneousEvent semantics:** Milestone occupies single time point, not duration. `_actualDate` = the instantaneous event time (when milestone reached); `_plannedDate` = predicted-but-unmaterialized event time, NOT a second event point. Cardinality 1 для plannedDate, 0..1 для actualDate (populated only когда status = Met or Missed).
+- **Distinct from pmbok__IssueItem (prov:Activity):** Milestone is event/point; Issue is activity/interval. Disjoint not asserted (different superclass branches handle separation naturally).
+- **Wikilink prov__InstantaneousEvent не материализован:** placeholder note для future RDF export, mirrors pmbok__IssueItem (prov__Activity) и pmbok__ProjectClosureReport patterns.
+- **Frontmatter exemplar для instance:**
+  ```yaml
+  exo__Instance_class:
+    - "[[pmbok__Milestone]]"
+  pmbok__Milestone_project: "[[<project-uid>|<project label>]]"
+  pmbok__Milestone_status: "[[pmbok__MilestoneStatusForecast]]"
+  pmbok__Milestone_plannedDate: 2026-05-15T00:00:00+0500
+  pmbok__Milestone_actualDate: 2026-05-16T10:30:00+0500
+  pmbok__Milestone_deliverable: "[[<asset-uid>|<asset label>]]"
+  ```

@@ -1,0 +1,11 @@
+---
+exo__Asset_isDefinedBy: "[[!pmbok]]"
+exo__Asset_uid: 9c90b87f-39ab-4b07-b209-78ac17b209de
+exo__Asset_createdAt: 2026-04-27T08:25:09+0500
+exo__Asset_updatedAt: 2026-04-27T08:25:09+0500
+exo__Asset_createdBy: "[[de20a3f1-7483-4714-ab28-b45f5cf02c76|ExoAssistant]]"
+exo__Instance_class:
+  - "[[exo__Class]]"
+exo__Asset_label: pmbok__ProjectStatusRecord
+exo__Asset_description: PMBOK-style Status Report — periodic snapshot of project performance (overall status, schedule/cost variance, current risks). Living document — multiple instances per project. Sibling of pmbok__ProjectCharter, distinguished by lifecycle (Monitoring vs Initiation), mutability (each instance immutable but new ones over time vs Charter immutable singleton), and cardinality (N-per-project vs 1-per-project).
+---

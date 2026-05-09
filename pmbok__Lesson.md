@@ -1,0 +1,13 @@
+---
+exo__Asset_isDefinedBy: "[[!pmbok]]"
+exo__Asset_uid: 09cc2583-fe89-47ca-9473-09922029ba84
+exo__Asset_createdAt: 2026-04-27T20:03:15+0500
+exo__Asset_updatedAt: 2026-04-27T20:03:15+0500
+exo__Asset_createdBy: "[[de20a3f1-7483-4714-ab28-b45f5cf02c76|ExoAssistant]]"
+exo__Instance_class:
+  - "[[exo__Class]]"
+exo__Asset_label: pmbok__Lesson
+exo__Asset_description: PMBOK-style Lesson Learned — single insight extracted during или после project execution. Singular noun (per RFC v3 Ontology F3 rename from LessonsLearned — instance-level granularity). Categorized via pmbok__Lesson_category linked к skos:Concept в pmbok__LessonCategoryScheme. Cross-project synthesis surface через CQ6. Tracking-entity (no Project* prefix per Phase 2 naming convention — 1:N cardinality from project). Pairwise owl:disjointWith 7 sibling lifecycle classes per pmbok__AllDisjointClassesAxiom.
+exo__Asset_relates:
+  - "[[4bd103cb-88ed-4a23-b51f-1d0afb166c6f|RFC pmbok-lifecycle v3]]"
+---

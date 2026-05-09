@@ -1,0 +1,31 @@
+---
+exo__Asset_isDefinedBy: "[[!pmbok]]"
+exo__Asset_uid: b1d3f00c-2265-426d-8fca-69b66a3faa38
+exo__Asset_createdAt: 2026-04-29T19:28:54+0500
+exo__Asset_updatedAt: 2026-04-29T19:28:54+0500
+exo__Asset_createdBy: "[[de20a3f1-7483-4714-ab28-b45f5cf02c76|ExoAssistant]]"
+exo__Instance_class:
+  - "[[exo__Class]]"
+exo__Class_superClass:
+  - "[[prov__Activity]]"
+exo__Asset_label: pmbok__IssueItem
+exo__Asset_description: PMBOK Issue Management — discrete realized issue tracking a project event that has occurred (вместо probabilistic). prov:Activity-style (event/activity, NOT entity per Ontology N9 — Entity ⊥ Activity disjoint). Lifecycle Open→InProgress→Resolved (or Escalated). Disjoint with pmbok__RiskItem per pmbok__AllDisjointClassesAxiom — Risk = potential, Issue = realized; if Risk realized, _spawnedFromRisk wikilinks back to RiskItem (inverse of pmbok__RiskItem_realizedAsIssue).
+exo__Asset_relates:
+  - "[[4bd103cb-88ed-4a23-b51f-1d0afb166c6f|RFC pmbok-lifecycle v3]]"
+---
+
+# pmbok__IssueItem
+
+## Notes
+- **Disjoint с pmbok__RiskItem:** instance MUST NOT be both Risk and Issue (per `pmbok__AllDisjointClassesAxiom`). Risk realized → spawn separate IssueItem; original RiskItem retains `_realizedAsIssue` link forward, IssueItem points back via `_spawnedFromRisk` (inverseOf pair).
+- **prov:Activity alignment:** IssueItem semantically a `prov:Activity` (event / activity, time-bounded by `_raisedAt` / `_resolvedAt`). Wikilink prov__Activity не материализован (placeholder note для future RDF export, mirrors pmbok__ProjectClosureReport).
+- **Frontmatter exemplar для instance:**
+  ```yaml
+  exo__Instance_class:
+    - "[[pmbok__IssueItem]]"
+  pmbok__IssueItem_project: "[[<project-uid>|<project label>]]"
+  pmbok__IssueItem_status: "[[pmbok__IssueStatusOpen]]"
+  pmbok__IssueItem_raisedAt: 2026-04-29T20:00:00+0500
+  pmbok__IssueItem_resolvedAt: 2026-04-29T22:00:00+0500
+  pmbok__IssueItem_spawnedFromRisk: "[[<risk-uid>|<risk label>]]"
+  ```
