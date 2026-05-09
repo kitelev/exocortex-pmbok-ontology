@@ -11,3 +11,5 @@ exo__AssetSpace_gitRemote: "git@github.com:kitelev/exocortex-pmbok-ontology.git"
 
 PMBOK ontology TBox: classes, properties, controlled vocabulary.
 Part of [Exocortex](https://github.com/kitelev/exocortex) ecosystem.
+
+Bbb
