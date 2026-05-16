@@ -1,5 +1,5 @@
 ---
-exo__Asset_isDefinedBy: "[[!pmbok]]"
+exo__Asset_isDefinedBy: "[[58df7855-d5fc-4f7c-9fa5-d909a1749b7e]]"
 exo__Asset_uid: ae9f9596-ffe9-497e-a9ee-354ec8fbd30c
 exo__Asset_createdAt: 2026-04-26T20:51:21
 exo__Asset_updatedAt: 2026-05-03T10:30:00
