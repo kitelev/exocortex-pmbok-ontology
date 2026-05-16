@@ -1,8 +1,8 @@
 ---
 exo__Asset_isDefinedBy: "[[!pmbok]]"
 exo__Asset_uid: 6216d058-fb35-4daa-804f-7488f93e8d88
-exo__Asset_createdAt: 2026-04-27T20:03:15+0500
-exo__Asset_updatedAt: 2026-04-27T20:03:15+0500
+exo__Asset_createdAt: 2026-04-27T20:03:15
+exo__Asset_updatedAt: 2026-04-27T20:03:15
 exo__Asset_createdBy: "[[de20a3f1-7483-4714-ab28-b45f5cf02c76|ExoAssistant]]"
 exo__Instance_class:
   - "[[pmbok__LessonCategoryScheme]]"

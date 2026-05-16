@@ -1,4 +1,5 @@
 ---
+exo__Asset_uid: feaa2233-6d14-46c5-8af7-06aee228ab7f
 exo__Asset_isDefinedBy: "[[!pmbok-as]]"
 exo__Instance_class:
   - "[[exo__AssetSpace]]"

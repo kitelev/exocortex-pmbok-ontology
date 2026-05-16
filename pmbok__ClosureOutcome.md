@@ -1,12 +1,14 @@
 ---
 exo__Asset_isDefinedBy: "[[!pmbok]]"
 exo__Asset_uid: 19c588a5-5c1d-4b95-9fd2-1eb7149a6826
-exo__Asset_createdAt: 2026-04-27T20:03:15+0500
-exo__Asset_updatedAt: 2026-04-27T20:03:15+0500
+exo__Asset_createdAt: 2026-04-27T20:03:15
+exo__Asset_updatedAt: 2026-04-27T20:03:15
 exo__Asset_createdBy: "[[de20a3f1-7483-4714-ab28-b45f5cf02c76|ExoAssistant]]"
 exo__Instance_class:
   - "[[exo__Class]]"
 exo__Asset_label: pmbok__ClosureOutcome
+exo__Class_superClass:
+  - "[[exo__Asset]]"
 exo__Asset_description: Abstract enum-as-class parent для controlled vocabulary outcomes pmbok__ProjectClosureReport_outcome. Concrete instances — pmbok__ClosureOutcomeAllAccepted (full deliverable acceptance), pmbok__ClosureOutcomePartialAcceptance (subset deliverables accepted, остальное declined / deferred), pmbok__ClosureOutcomeCancelled (project terminated до completion). Renamed per RFC v3 Ontology N6 from FinalAcceptanceState — semantic shift отражает PMBOK closing-stage outcome (включает Cancelled — not just acceptance). Pattern mirrors pmbok__OverallStatus (enum-as-class). Frontmatter wikilink form mandatory per Phase 2 exemplar.
 exo__Asset_relates:
   - "[[4bd103cb-88ed-4a23-b51f-1d0afb166c6f|RFC pmbok-lifecycle v3]]"

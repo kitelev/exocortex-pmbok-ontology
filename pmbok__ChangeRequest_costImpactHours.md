@@ -1,8 +1,8 @@
 ---
 exo__Asset_isDefinedBy: "[[!pmbok]]"
 exo__Asset_uid: 40f9d287-9cd4-4f57-8a4c-0c73199a4b9f
-exo__Asset_createdAt: 2026-04-29T21:30:36+0500
-exo__Asset_updatedAt: 2026-05-03T10:30:00+0500
+exo__Asset_createdAt: 2026-04-29T21:30:36
+exo__Asset_updatedAt: 2026-05-03T10:30:00
 exo__Asset_createdBy: "[[de20a3f1-7483-4714-ab28-b45f5cf02c76|ExoAssistant]]"
 exo__Instance_class:
   - "[[exo__Property]]"
