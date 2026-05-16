@@ -2,11 +2,11 @@
 exo__Asset_isDefinedBy: "[[58df7855-d5fc-4f7c-9fa5-d909a1749b7e]]"
 exo__Asset_uid: 0032dba9-be0c-44e8-9ec3-810cb1a38875
 exo__Asset_createdAt: 2026-04-27T20:03:15
-exo__Asset_updatedAt: 2026-05-09T18:55:52
+exo__Asset_updatedAt: 2026-05-16T19:18:00
 exo__Asset_createdBy: "[[de20a3f1-7483-4714-ab28-b45f5cf02c76|ExoAssistant]]"
 exo__Instance_class:
   - "[[exo__Property]]"
-  - "[[exo__ObjectProperty]]"
+  - "[[9a1cf31c-9d41-4ef3-9023-584a8d087d16]]"
 exo__Asset_label: pmbok__Lesson_project
 exo__Asset_description: DEPRECATED per RFC d9dda65f (pmbok-artifacts v3.2). Transitive duplicate — Project доступен через pmbok__Lesson_closureReport → pmbok__ProjectClosureReport_project. Создавал drift risk (два независимых пути к Project). Source project — где Lesson был extracted. Many-to-one — один Project имеет 0..N Lessons; каждый Lesson tied к ровно одному Project. Cancelled-project lessons valuable cross-project learning (per RFC v3 edge case table). Cardinality 1 (required). Range ems__Project.
 exo__Property_domain: "[[pmbok__Lesson]]"

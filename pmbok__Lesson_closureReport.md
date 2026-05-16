@@ -2,11 +2,11 @@
 exo__Asset_isDefinedBy: "[[58df7855-d5fc-4f7c-9fa5-d909a1749b7e]]"
 exo__Asset_uid: 3b17d2f7-c378-4c8f-9275-04becc190e0d
 exo__Asset_createdAt: 2026-05-09T18:55:52
-exo__Asset_updatedAt: 2026-05-09T18:55:52
+exo__Asset_updatedAt: 2026-05-16T19:18:00
 exo__Asset_createdBy: "[[de20a3f1-7483-4714-ab28-b45f5cf02c76|ExoAssistant]]"
 exo__Instance_class:
   - "[[exo__Property]]"
-  - "[[exo__ObjectProperty]]"
+  - "[[9a1cf31c-9d41-4ef3-9023-584a8d087d16]]"
 exo__Asset_label: pmbok__Lesson_closureReport
 exo__Asset_description: Closure event при котором этот Lesson был captured. Child→parent UWI direction per RFC d9dda65f (pmbok-artifacts v3.2). Заменяет deprecated pmbok__Lesson_project (transitive duplicate) и устраняет chicken-and-egg с pmbok__ProjectClosureReport_lessons (UWI violation). Project доступен транзитивно — ?lesson :_closureReport ?closure . ?closure :_project ?project . Cardinality 1 (required). Range pmbok__ProjectClosureReport.
 exo__Property_domain: "[[pmbok__Lesson]]"
