@@ -3,7 +3,7 @@ exo__Asset_isDefinedBy: "[[58df7855-d5fc-4f7c-9fa5-d909a1749b7e]]"
 exo__Asset_uid: ff1b9be3-9ffd-4d15-aa73-7e8ed94fe9bf
 exo__Asset_createdAt: 2026-04-29T18:54:18
 exo__Asset_updatedAt: 2026-04-29T18:54:18
-exo__Asset_createdBy: "[[de20a3f1-7483-4714-ab28-b45f5cf02c76|ExoAssistant]]"
+exo__Asset_createdBy: "[[de20a3f1-7483-4714-ab28-b45f5cf02c76]]"
 exo__Instance_class:
   - "[[8619c4fc-64f1-4869-b17e-e34186cacca9]]"
 exo__Asset_label: pmbok__RiskItem
@@ -21,10 +21,10 @@ exo__Asset_description: PMBOK Risk Management — discrete risk register entry t
 - **Frontmatter exemplar для instance:**
   ```yaml
   exo__Instance_class:
-    - "[[ff1b9be3-9ffd-4d15-aa73-7e8ed94fe9bf|pmbok__RiskItem]]"
+    - "[[ff1b9be3-9ffd-4d15-aa73-7e8ed94fe9bf]]"
   pmbok__RiskItem_project: "[[<project-uid>|<project label>]]"
-  pmbok__RiskItem_status: "[[399f782c-fa79-4dff-a029-adca5ac700e5|pmbok__RiskStatusOpen]]"
-  pmbok__RiskItem_probability: "[[85abeb12-0f64-4b32-8a87-df62d3fea544|pmbok__RiskProbabilityMedium]]"
-  pmbok__RiskItem_impact: "[[4112a46b-b536-42b9-a6e9-33d327d85865|pmbok__RiskImpactHigh]]"
+  pmbok__RiskItem_status: "[[399f782c-fa79-4dff-a029-adca5ac700e5]]"
+  pmbok__RiskItem_probability: "[[85abeb12-0f64-4b32-8a87-df62d3fea544]]"
+  pmbok__RiskItem_impact: "[[4112a46b-b536-42b9-a6e9-33d327d85865]]"
   pmbok__RiskItem_mitigationSummary: "Brief mitigation strategy text"
   ```
